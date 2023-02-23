@@ -1,0 +1,35 @@
+.header {
+    padding: 20px;
+    text-align: left;
+    background: #000;
+    color: white;
+    font: Arial;
+    font-size: 10px;
+    column-count: 4;
+  }
+.header .p1{
+    padding: 20px;
+}
+.middle{
+    column-count: 3;
+}
+.middle .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+.upper{
+    background-color: #c6bfbf;
+}
+.footer {
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0b4d14;
+    color: white;
+    text-align: center;
+    column-count: 4;
+}
